@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="PLACED_ORDERS" directorySegmentName="seg_0" id="CA26F664-2C12-F7BB-65D1-B67402FA1072">
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:07 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+<schemaObject>3A8D122A-5BE0-88FE-3126-23F4C1969A84</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>0ED9A51B-6856-2CAE-646C-44B721377C8C</segment>
+<tableSpace>D3D268CB-40FE-48E6-6CC8-E505DCE939D0</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PO_DELIVERY_TIME" id="0ACDD85E-C476-A7B4-CF91-F9DCAE023AB3">
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:07 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PO_FINAL_PRICE" id="28EAD3CF-688A-BC51-6013-C0690871CC2B">
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:07 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PLACED_ORDERS_ID" id="A3F55914-794F-B539-2A1C-BA1F254EBFEE">
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:07 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PO_CUSTOMER_ID" id="CDCA37A0-C5BB-B337-A461-D20B21381665">
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:07 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PO_DISCOUNT" id="D2E4F42C-1C1A-C718-8C2C-15746840B9FF">
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:07 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PO_PRICE" id="DBA86F75-295F-2BC0-E476-38ED6FA47944">
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:07 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PO_DISH_ID" id="DF85E556-C3E3-B6D5-5C78-C7D4BF7D26C2">
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:07 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PLACED_ORDERS_PK" id="D82F1675-6B79-4187-3CEE-BF5939FF64D2">
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:08 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+<schemaObject>3A8D122A-5BE0-88FE-3126-23F4C1969A84</schemaObject>
+<segment>E6009CAB-944D-684D-EF8A-68740BBF0F39</segment>
+<tableSpace>D3D268CB-40FE-48E6-6CC8-E505DCE939D0</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C007893" id="1AE1E988-8DC0-C2C1-5E0A-AEA1D103E079">
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:08 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C007891" id="FD159B6F-5489-D59F-62C1-3127C3DF7DC3">
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:08 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PLACED_ORDERS_PK" id="A99692B2-72B3-66B7-0A85-13740D7395E4">
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:08 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+<segment>E6009CAB-944D-684D-EF8A-68740BBF0F39</segment>
+<tableSpace>D3D268CB-40FE-48E6-6CC8-E505DCE939D0</tableSpace>
+<existingIndex>D82F1675-6B79-4187-3CEE-BF5939FF64D2</existingIndex>
+<indexSegment>E6009CAB-944D-684D-EF8A-68740BBF0F39</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7457FA92-691D-9612-7A7A-A4196AF01AF5" schemaObject="3A8D122A-5BE0-88FE-3126-23F4C1969A84" name="COOKING">
+<sourceConnName>restaurant</sourceConnName>
+<sourceObjSchema>REST</sourceObjSchema>
+<sourceObjName>COOKING</sourceObjName>
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:07 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COOKING_ID" id="0BDF4EA5-78AD-2E91-05C4-0FC6419DCB39">
+<sourceConnName>restaurant</sourceConnName>
+<sourceObjSchema>COOKING</sourceObjSchema>
+<sourceObjName>COOKING_ID</sourceObjName>
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:07 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="C_DISH_ID" id="AA6B6AC3-BFB8-F111-4143-9C56DA77B7EF">
+<sourceConnName>restaurant</sourceConnName>
+<sourceObjSchema>COOKING</sourceObjSchema>
+<sourceObjName>C_DISH_ID</sourceObjName>
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:07 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9FEFB1E5-7393-876F-8D1A-C984E7980972" referredColumn="71A2471B-9573-6B06-0BF8-7A3431AFB1CD"/>
+</associations>
+</Column>
+<Column name="C_RESTAURANT_ID" id="0F4F0CF3-47A9-1A6D-2B33-CEAB121C2C23">
+<sourceConnName>restaurant</sourceConnName>
+<sourceObjSchema>COOKING</sourceObjSchema>
+<sourceObjName>C_RESTAURANT_ID</sourceObjName>
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:07 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="45E71DB1-F71B-371D-31C2-4115D1697CD4" referredColumn="3F0FBE7C-6E90-43EB-3559-C6886EB3A5AA"/>
+</associations>
+</Column>
+<Column name="COOKING_TIME" id="79E3FCD3-A382-BC6E-145C-C57BEA345D34">
+<sourceConnName>restaurant</sourceConnName>
+<sourceObjSchema>COOKING</sourceObjSchema>
+<sourceObjName>COOKING_TIME</sourceObjName>
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:07 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="32B2C5CA-C5AA-8D28-5662-E15699804974" name="COOKING_PK">
+<sourceConnName>restaurant</sourceConnName>
+<sourceObjSchema>REST</sourceObjSchema>
+<sourceObjName>COOKING_PK</sourceObjName>
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:08 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0BDF4EA5-78AD-2E91-05C4-0FC6419DCB39"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="287CB808-2D49-A687-3565-77EAEB0AB5A7" schemaObject="3A8D122A-5BE0-88FE-3126-23F4C1969A84" name="COOKING_PK">
+<sourceConnName>restaurant</sourceConnName>
+<sourceObjSchema>REST</sourceObjSchema>
+<sourceObjName>COOKING_PK</sourceObjName>
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:08 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0BDF4EA5-78AD-2E91-05C4-0FC6419DCB39"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A691A4B6-4ECF-DA2B-B411-81C976E0A292" name="SYS_C007902">
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:08 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA6B6AC3-BFB8-F111-4143-9C56DA77B7EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3D760364-6B87-CA72-78CA-CDB3EE7853E0" name="SYS_C007903">
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:08 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F4F0CF3-47A9-1A6D-2B33-CEAB121C2C23"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

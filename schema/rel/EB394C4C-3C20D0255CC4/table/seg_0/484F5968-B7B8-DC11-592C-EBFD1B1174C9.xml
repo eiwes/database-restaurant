@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="484F5968-B7B8-DC11-592C-EBFD1B1174C9" schemaObject="3A8D122A-5BE0-88FE-3126-23F4C1969A84" name="CUSTOMER">
+<sourceConnName>restaurant</sourceConnName>
+<sourceObjSchema>REST</sourceObjSchema>
+<sourceObjName>CUSTOMER</sourceObjName>
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:07 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CUSTOMER_ID" id="CD7989EA-04D6-4D48-B4DE-4F160B1FEAB9">
+<sourceConnName>restaurant</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>CUSTOMER_ID</sourceObjName>
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:07 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUSTOMER_NAME" id="56901867-9130-2DD3-1713-619DBD1AB82B">
+<sourceConnName>restaurant</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>CUSTOMER_NAME</sourceObjName>
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:07 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUSTOMER_SURNAME" id="4635078E-CAF2-3953-2092-EBAC7387621D">
+<sourceConnName>restaurant</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>CUSTOMER_SURNAME</sourceObjName>
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:07 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUSTOMER_GENDER" id="4161CFAE-8CBF-9813-C151-B40BDE8E955A">
+<sourceConnName>restaurant</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>CUSTOMER_GENDER</sourceObjName>
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:07 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUSTOMER_CARD_NUMBER" id="ED95DE14-8D28-EB8E-7E87-1E7888F2237F">
+<sourceConnName>restaurant</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>CUSTOMER_CARD_NUMBER</sourceObjName>
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:07 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="84D7CA7F-5F78-64AC-3206-70E7A30D4535" name="CUSTOMER_PK">
+<sourceConnName>restaurant</sourceConnName>
+<sourceObjSchema>REST</sourceObjSchema>
+<sourceObjName>CUSTOMER_PK</sourceObjName>
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:08 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD7989EA-04D6-4D48-B4DE-4F160B1FEAB9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="337CB874-6E00-4115-C6B7-B7FE7DF9A494" schemaObject="3A8D122A-5BE0-88FE-3126-23F4C1969A84" name="CUSTOMER_PK">
+<sourceConnName>restaurant</sourceConnName>
+<sourceObjSchema>REST</sourceObjSchema>
+<sourceObjName>CUSTOMER_PK</sourceObjName>
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:08 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD7989EA-04D6-4D48-B4DE-4F160B1FEAB9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="171CF518-0F2B-9D91-9E7E-563AA0B33A9D" schemaObject="3A8D122A-5BE0-88FE-3126-23F4C1969A84" name="COOK">
+<sourceConnName>restaurant</sourceConnName>
+<sourceObjSchema>REST</sourceObjSchema>
+<sourceObjName>COOK</sourceObjName>
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:07 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COOK_EMPLOYEES_ID" id="E8CCEA26-07FC-9CC1-4E1B-552BD8FFF271">
+<sourceConnName>restaurant</sourceConnName>
+<sourceObjSchema>COOK</sourceObjSchema>
+<sourceObjName>COOK_EMPLOYEES_ID</sourceObjName>
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:07 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D9E22D5A-CB02-0A03-0713-793C4839D937" referredColumn="549C9193-8D26-910E-554B-748283C20B48"/>
+</associations>
+</Column>
+<Column name="COOK_CATEGORY" id="7332D565-50B7-5B19-8F1C-B4548376627D">
+<sourceConnName>restaurant</sourceConnName>
+<sourceObjSchema>COOK</sourceObjSchema>
+<sourceObjName>COOK_CATEGORY</sourceObjName>
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:07 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COOK_POSITION" id="7DE1F28A-B723-5769-4D0F-EC0F832C3CAA">
+<sourceConnName>restaurant</sourceConnName>
+<sourceObjSchema>COOK</sourceObjSchema>
+<sourceObjName>COOK_POSITION</sourceObjName>
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:07 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="39CBF053-89D1-A5D4-EC46-191419C02118" name="SYS_C007944">
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:08 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8CCEA26-07FC-9CC1-4E1B-552BD8FFF271"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

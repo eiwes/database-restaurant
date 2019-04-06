@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="CUSTOMER" directorySegmentName="seg_0" id="484F5968-B7B8-DC11-592C-EBFD1B1174C9">
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:07 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+<schemaObject>3A8D122A-5BE0-88FE-3126-23F4C1969A84</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>0ED9A51B-6856-2CAE-646C-44B721377C8C</segment>
+<tableSpace>D3D268CB-40FE-48E6-6CC8-E505DCE939D0</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CUSTOMER_GENDER" id="4161CFAE-8CBF-9813-C151-B40BDE8E955A">
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:07 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUSTOMER_SURNAME" id="4635078E-CAF2-3953-2092-EBAC7387621D">
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:07 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUSTOMER_NAME" id="56901867-9130-2DD3-1713-619DBD1AB82B">
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:07 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUSTOMER_ID" id="CD7989EA-04D6-4D48-B4DE-4F160B1FEAB9">
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:07 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUSTOMER_CARD_NUMBER" id="ED95DE14-8D28-EB8E-7E87-1E7888F2237F">
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:07 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="CUSTOMER_PK" id="337CB874-6E00-4115-C6B7-B7FE7DF9A494">
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:08 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+<schemaObject>3A8D122A-5BE0-88FE-3126-23F4C1969A84</schemaObject>
+<segment>E6009CAB-944D-684D-EF8A-68740BBF0F39</segment>
+<tableSpace>D3D268CB-40FE-48E6-6CC8-E505DCE939D0</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CUSTOMER_PK" id="84D7CA7F-5F78-64AC-3206-70E7A30D4535">
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:08 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+<segment>E6009CAB-944D-684D-EF8A-68740BBF0F39</segment>
+<tableSpace>D3D268CB-40FE-48E6-6CC8-E505DCE939D0</tableSpace>
+<existingIndex>337CB874-6E00-4115-C6B7-B7FE7DF9A494</existingIndex>
+<indexSegment>E6009CAB-944D-684D-EF8A-68740BBF0F39</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

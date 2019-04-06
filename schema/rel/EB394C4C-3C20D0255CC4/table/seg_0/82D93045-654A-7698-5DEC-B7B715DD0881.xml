@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="82D93045-654A-7698-5DEC-B7B715DD0881" schemaObject="3A8D122A-5BE0-88FE-3126-23F4C1969A84" name="COURIER">
+<sourceConnName>restaurant</sourceConnName>
+<sourceObjSchema>REST</sourceObjSchema>
+<sourceObjName>COURIER</sourceObjName>
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:07 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COURIER_EMPLOYEES_ID" id="F34E2748-C944-83E5-F8E2-44AB27C866BB">
+<sourceConnName>restaurant</sourceConnName>
+<sourceObjSchema>COURIER</sourceObjSchema>
+<sourceObjName>COURIER_EMPLOYEES_ID</sourceObjName>
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:07 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F59657D1-5479-2FFC-3F1A-C9EA7BB65300" referredColumn="549C9193-8D26-910E-554B-748283C20B48"/>
+</associations>
+</Column>
+<Column name="COURIER_TYPE" id="3BDDCD36-724C-50D0-9AEE-49BF3AF80DC9">
+<sourceConnName>restaurant</sourceConnName>
+<sourceObjSchema>COURIER</sourceObjSchema>
+<sourceObjName>COURIER_TYPE</sourceObjName>
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:07 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="35565761-7FC3-476F-4C2A-53D53D384861" name="SYS_C009013">
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:33:13 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F34E2748-C944-83E5-F8E2-44AB27C866BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

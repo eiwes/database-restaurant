@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ABC52F24-3679-9727-9FD0-BB4CC6A669CD" schemaObject="3A8D122A-5BE0-88FE-3126-23F4C1969A84" name="RARE_DISH">
+<sourceConnName>restaurant</sourceConnName>
+<sourceObjSchema>REST</sourceObjSchema>
+<sourceObjName>RARE_DISH</sourceObjName>
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:07 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RARE_DISH_ID" id="FCD752EA-587F-7E4B-8A30-9DAACE0EB270">
+<sourceConnName>restaurant</sourceConnName>
+<sourceObjSchema>RARE_DISH</sourceObjSchema>
+<sourceObjName>RARE_DISH_ID</sourceObjName>
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:07 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RD_DISH_ID" id="D8E0AA0C-087C-6AAA-9069-266E6856EEA2">
+<sourceConnName>restaurant</sourceConnName>
+<sourceObjSchema>RARE_DISH</sourceObjSchema>
+<sourceObjName>RD_DISH_ID</sourceObjName>
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:07 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F58B9437-0753-4FBC-77CF-029221FBE974" referredColumn="71A2471B-9573-6B06-0BF8-7A3431AFB1CD"/>
+</associations>
+</Column>
+<Column name="SPECIAL_INGREDIENT" id="63706B07-5749-A474-44B9-F8B98C649034">
+<sourceConnName>restaurant</sourceConnName>
+<sourceObjSchema>RARE_DISH</sourceObjSchema>
+<sourceObjName>SPECIAL_INGREDIENT</sourceObjName>
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:07 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DCFA92BD-E991-93CD-4D29-C7C4F3F5AB82" name="RARE_DISH_PK">
+<sourceConnName>restaurant</sourceConnName>
+<sourceObjSchema>REST</sourceObjSchema>
+<sourceObjName>RARE_DISH_PK</sourceObjName>
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:08 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FCD752EA-587F-7E4B-8A30-9DAACE0EB270"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E1EBE670-3BEE-BCC0-FA1E-D75750C2455C" schemaObject="3A8D122A-5BE0-88FE-3126-23F4C1969A84" name="RARE_DISH_PK">
+<sourceConnName>restaurant</sourceConnName>
+<sourceObjSchema>REST</sourceObjSchema>
+<sourceObjName>RARE_DISH_PK</sourceObjName>
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:08 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FCD752EA-587F-7E4B-8A30-9DAACE0EB270"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F99B523B-D3E7-D9A0-D438-6A8FC165D369" name="SYS_C007900">
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:08 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D8E0AA0C-087C-6AAA-9069-266E6856EEA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

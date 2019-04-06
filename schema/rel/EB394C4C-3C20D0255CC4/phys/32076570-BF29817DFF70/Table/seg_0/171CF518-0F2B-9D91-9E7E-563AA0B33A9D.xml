@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="COOK" directorySegmentName="seg_0" id="171CF518-0F2B-9D91-9E7E-563AA0B33A9D">
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:07 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+<schemaObject>3A8D122A-5BE0-88FE-3126-23F4C1969A84</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>0ED9A51B-6856-2CAE-646C-44B721377C8C</segment>
+<tableSpace>D3D268CB-40FE-48E6-6CC8-E505DCE939D0</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="COOK_CATEGORY" id="7332D565-50B7-5B19-8F1C-B4548376627D">
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:07 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COOK_POSITION" id="7DE1F28A-B723-5769-4D0F-EC0F832C3CAA">
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:07 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COOK_EMPLOYEES_ID" id="E8CCEA26-07FC-9CC1-4E1B-552BD8FFF271">
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:07 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C007944" id="39CBF053-89D1-A5D4-EC46-191419C02118">
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:08 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+</TableProxyOraclev11g>

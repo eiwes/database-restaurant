@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="PLACED_ORDERS_BIR" directorySegmentName="seg_0" id="B72FECED-5788-38AC-61D0-A85B2D98F5A0">
+<sourceConnName>restaurant</sourceConnName>
+<sourceObjSchema>REST</sourceObjSchema>
+<sourceObjName>PLACED_ORDERS_BIR</sourceObjName>
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:08 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+<actions>INSERT</actions>
+<body>begin&lt;br/&gt;    select placed_orders_seq.nextval&lt;br/&gt;    into :new.placed_orders_id&lt;br/&gt;    from dual;&lt;br/&gt;end;</body>
+<triggerTime>BEFORE</triggerTime>
+<owner>8B404076-71F4-B257-77D3-FA19B02CD721</owner>
+<table>CA26F664-2C12-F7BB-65D1-B67402FA1072</table>
+</TriggerOraclev10g>

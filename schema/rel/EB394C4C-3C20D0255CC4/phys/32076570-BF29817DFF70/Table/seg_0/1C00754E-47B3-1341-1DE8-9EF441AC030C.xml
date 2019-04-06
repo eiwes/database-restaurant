@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="RESTAURANT" directorySegmentName="seg_0" id="1C00754E-47B3-1341-1DE8-9EF441AC030C">
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:07 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+<schemaObject>3A8D122A-5BE0-88FE-3126-23F4C1969A84</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>0ED9A51B-6856-2CAE-646C-44B721377C8C</segment>
+<tableSpace>D3D268CB-40FE-48E6-6CC8-E505DCE939D0</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="RESTAURANT_ID" id="3F0FBE7C-6E90-43EB-3559-C6886EB3A5AA">
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:07 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RESTAURANT_NAME" id="5EBF1DB9-797D-5A4B-9BC2-EDE9BD9AADC9">
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:07 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RESTAURANT_ADDRESS" id="A8EE2F1B-8DB1-B9CB-D3C7-8D40D5B4EB29">
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:07 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="RESTAURANT_PK" id="9303CE10-B9AE-E9E9-E059-7CCBAF7FA99C">
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:08 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+<schemaObject>3A8D122A-5BE0-88FE-3126-23F4C1969A84</schemaObject>
+<segment>E6009CAB-944D-684D-EF8A-68740BBF0F39</segment>
+<tableSpace>D3D268CB-40FE-48E6-6CC8-E505DCE939D0</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="RESTAURANT_PK" id="DA04B14D-D247-A211-EF1F-BB146CE81457">
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:08 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+<segment>E6009CAB-944D-684D-EF8A-68740BBF0F39</segment>
+<tableSpace>D3D268CB-40FE-48E6-6CC8-E505DCE939D0</tableSpace>
+<existingIndex>9303CE10-B9AE-E9E9-E059-7CCBAF7FA99C</existingIndex>
+<indexSegment>E6009CAB-944D-684D-EF8A-68740BBF0F39</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

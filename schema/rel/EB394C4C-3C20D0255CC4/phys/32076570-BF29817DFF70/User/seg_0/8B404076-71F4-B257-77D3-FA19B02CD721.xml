@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="REST" directorySegmentName="seg_0" id="8B404076-71F4-B257-77D3-FA19B02CD721">
+<sourceConnName>restaurant</sourceConnName>
+<sourceObjName>REST</sourceObjName>
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:06 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+<schemaObject>3A8D122A-5BE0-88FE-3126-23F4C1969A84</schemaObject>
+<defTableSpace>D3D268CB-40FE-48E6-6CC8-E505DCE939D0</defTableSpace>
+<privileges>CREATE INDEXTYPE, CREATE VIEW, CREATE TYPE, CREATE TABLE, CREATE JOB, CREATE SESSION, CREATE SYNONYM, CREATE SEQUENCE, CREATE PROCEDURE, CREATE ANY CONTEXT, CREATE TRIGGER, CREATE CLUSTER, CREATE MATERIALIZED VIEW, CREATE OPERATOR, CREATE DIMENSION</privileges>
+<quotaItems>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem1" id="4BF7DBDF-4C81-EC17-4293-C76B7F03115F">
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:33:13 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+<tableSpace>D3D268CB-40FE-48E6-6CC8-E505DCE939D0</tableSpace>
+</QuotaItem>
+</quotaItems>
+</UserOraclev10g>

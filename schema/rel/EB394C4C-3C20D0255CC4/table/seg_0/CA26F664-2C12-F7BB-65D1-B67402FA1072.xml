@@ -1,0 +1,179 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CA26F664-2C12-F7BB-65D1-B67402FA1072" schemaObject="3A8D122A-5BE0-88FE-3126-23F4C1969A84" name="PLACED_ORDERS">
+<sourceConnName>restaurant</sourceConnName>
+<sourceObjSchema>REST</sourceObjSchema>
+<sourceObjName>PLACED_ORDERS</sourceObjName>
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:07 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PLACED_ORDERS_ID" id="A3F55914-794F-B539-2A1C-BA1F254EBFEE">
+<sourceConnName>restaurant</sourceConnName>
+<sourceObjSchema>PLACED_ORDERS</sourceObjSchema>
+<sourceObjName>PLACED_ORDERS_ID</sourceObjName>
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:07 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PO_PRICE" id="DBA86F75-295F-2BC0-E476-38ED6FA47944">
+<sourceConnName>restaurant</sourceConnName>
+<sourceObjSchema>PLACED_ORDERS</sourceObjSchema>
+<sourceObjName>PO_PRICE</sourceObjName>
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:07 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PO_DISCOUNT" id="D2E4F42C-1C1A-C718-8C2C-15746840B9FF">
+<sourceConnName>restaurant</sourceConnName>
+<sourceObjSchema>PLACED_ORDERS</sourceObjSchema>
+<sourceObjName>PO_DISCOUNT</sourceObjName>
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:07 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PO_FINAL_PRICE" id="28EAD3CF-688A-BC51-6013-C0690871CC2B">
+<sourceConnName>restaurant</sourceConnName>
+<sourceObjSchema>PLACED_ORDERS</sourceObjSchema>
+<sourceObjName>PO_FINAL_PRICE</sourceObjName>
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:07 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PO_DELIVERY_TIME" id="0ACDD85E-C476-A7B4-CF91-F9DCAE023AB3">
+<sourceConnName>restaurant</sourceConnName>
+<sourceObjSchema>PLACED_ORDERS</sourceObjSchema>
+<sourceObjName>PO_DELIVERY_TIME</sourceObjName>
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:07 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PO_CUSTOMER_ID" id="CDCA37A0-C5BB-B337-A461-D20B21381665">
+<sourceConnName>restaurant</sourceConnName>
+<sourceObjSchema>PLACED_ORDERS</sourceObjSchema>
+<sourceObjName>PO_CUSTOMER_ID</sourceObjName>
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:07 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DE0637C2-F30E-B7B7-0FF7-619B06BD752B" referredColumn="CD7989EA-04D6-4D48-B4DE-4F160B1FEAB9"/>
+</associations>
+</Column>
+<Column name="PO_DISH_ID" id="DF85E556-C3E3-B6D5-5C78-C7D4BF7D26C2">
+<sourceConnName>restaurant</sourceConnName>
+<sourceObjSchema>PLACED_ORDERS</sourceObjSchema>
+<sourceObjName>PO_DISH_ID</sourceObjName>
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:07 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B4CEBD15-B2ED-20C7-F5AC-888B73111E27" referredColumn="71A2471B-9573-6B06-0BF8-7A3431AFB1CD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A99692B2-72B3-66B7-0A85-13740D7395E4" name="PLACED_ORDERS_PK">
+<sourceConnName>restaurant</sourceConnName>
+<sourceObjSchema>REST</sourceObjSchema>
+<sourceObjName>PLACED_ORDERS_PK</sourceObjName>
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:08 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3F55914-794F-B539-2A1C-BA1F254EBFEE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D82F1675-6B79-4187-3CEE-BF5939FF64D2" schemaObject="3A8D122A-5BE0-88FE-3126-23F4C1969A84" name="PLACED_ORDERS_PK">
+<sourceConnName>restaurant</sourceConnName>
+<sourceObjSchema>REST</sourceObjSchema>
+<sourceObjName>PLACED_ORDERS_PK</sourceObjName>
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:08 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3F55914-794F-B539-2A1C-BA1F254EBFEE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FD159B6F-5489-D59F-62C1-3127C3DF7DC3" name="SYS_C007891">
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:08 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CDCA37A0-C5BB-B337-A461-D20B21381665"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1AE1E988-8DC0-C2C1-5E0A-AEA1D103E079" name="SYS_C007893">
+<createdBy>Niyara</createdBy>
+<createdTime>2019-03-17 15:19:08 UTC</createdTime>
+<ownerDesignName>1123</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF85E556-C3E3-B6D5-5C78-C7D4BF7D26C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
